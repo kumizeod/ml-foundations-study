@@ -1,0 +1,49 @@
+# 主题目录与编排索引
+
+日期是主题编排的Git作者日期；个人实际学习状态见PROGRESS.md。
+CS224n与CS231n以2025课程公开入口为组织参考，编号非官方讲次。
+
+| 日期 | 课程 | 笔记 | 练习 |
+|---|---|---|---|
+| 2026-07-20 | cs224n | [张量、条件概率与语言建模的输入输出](notes/cs224n/01-tensors-and-probability.md) | [练习卡](exercises/cs224n/01-tensors-and-probability.md) |
+| 2026-07-21 | cs224n | [词向量：相似性来自任务，而不是编号](notes/cs224n/02-word-vectors.md) | [练习卡](exercises/cs224n/02-word-vectors.md) |
+| 2026-07-22 | cs224n | [Skip-gram、负采样与训练目标的区别](notes/cs224n/03-word2vec-and-objectives.md) | [练习卡](exercises/cs224n/03-word2vec-and-objectives.md) |
+| 2026-07-23 | cs224n | [交叉熵梯度、数值稳定与优化检查](notes/cs224n/04-backprop-and-optimization.md) | [练习卡](exercises/cs224n/04-backprop-and-optimization.md) |
+| 2026-07-24 | cs224n | [RNN 与 LSTM：信息如何沿时间传播](notes/cs224n/05-rnn-lstm.md) | [练习卡](exercises/cs224n/05-rnn-lstm.md) |
+| 2026-07-26 | cs224n | [Seq2seq、teacher forcing 与训练推理差异](notes/cs224n/06-seq2seq.md) | [练习卡](exercises/cs224n/06-seq2seq.md) |
+| 2026-07-27 | cs224n | [Attention：查询、匹配、加权读取](notes/cs224n/07-attention.md) | [练习卡](exercises/cs224n/07-attention.md) |
+| 2026-07-28 | cs224n | [Transformer：残差、归一化、多头与位置](notes/cs224n/08-transformer.md) | [练习卡](exercises/cs224n/08-transformer.md) |
+| 2026-07-30 | cs224n | [分词、预训练目标与数据泄漏](notes/cs224n/09-tokenization-and-pretraining.md) | [练习卡](exercises/cs224n/09-tokenization-and-pretraining.md) |
+| 2026-07-31 | cs224n | [全量微调、LoRA 与实验公平性](notes/cs224n/10-finetuning.md) | [练习卡](exercises/cs224n/10-finetuning.md) |
+| 2026-08-01 | cs224n | [生成策略与评测：模型得分不等于任务完成](notes/cs224n/11-decoding-and-evaluation.md) | [练习卡](exercises/cs224n/11-decoding-and-evaluation.md) |
+| 2026-08-03 | cs224n | [检索增强、上下文选择与幻觉排查](notes/cs224n/12-retrieval-and-factuality.md) | [练习卡](exercises/cs224n/12-retrieval-and-factuality.md) |
+| 2026-08-05 | cs224n | [偏好学习、奖励信号与工具使用边界](notes/cs224n/13-alignment-and-preferences.md) | [练习卡](exercises/cs224n/13-alignment-and-preferences.md) |
+| 2026-08-07 | cs224n | [NLP 综合复习与小型实验设计](notes/cs224n/14-nlp-capstone.md) | [练习卡](exercises/cs224n/14-nlp-capstone.md) |
+| 2026-08-09 | cs231n | [图像分类、线性分类器与基线](notes/cs231n/01-classification.md) | [练习卡](exercises/cs231n/01-classification.md) |
+| 2026-08-11 | cs231n | [SGD、动量、Adam 与学习率](notes/cs231n/02-optimization.md) | [练习卡](exercises/cs231n/02-optimization.md) |
+| 2026-08-13 | cs231n | [计算图、链式法则与梯度检查](notes/cs231n/03-backprop.md) | [练习卡](exercises/cs231n/03-backprop.md) |
+| 2026-08-15 | cs231n | [正则化、数据增强与泛化诊断](notes/cs231n/04-regularization.md) | [练习卡](exercises/cs231n/04-regularization.md) |
+| 2026-08-17 | cs231n | [卷积、步长、填充与感受野](notes/cs231n/05-convolution.md) | [练习卡](exercises/cs231n/05-convolution.md) |
+| 2026-08-19 | cs231n | [归一化与残差网络](notes/cs231n/06-normalization-resnet.md) | [练习卡](exercises/cs231n/06-normalization-resnet.md) |
+| 2026-08-21 | cs231n | [迁移学习、冻结策略与分布变化](notes/cs231n/07-transfer-learning.md) | [练习卡](exercises/cs231n/07-transfer-learning.md) |
+| 2026-08-23 | cs231n | [视觉序列、图像描述与 Vision Transformer](notes/cs231n/08-visual-sequences-transformers.md) | [练习卡](exercises/cs231n/08-visual-sequences-transformers.md) |
+| 2026-08-25 | cs231n | [检测、分割、IoU 与 NMS](notes/cs231n/09-detection-segmentation.md) | [练习卡](exercises/cs231n/09-detection-segmentation.md) |
+| 2026-08-27 | cs231n | [视频理解、时间采样与训练工程](notes/cs231n/10-video-and-training-systems.md) | [练习卡](exercises/cs231n/10-video-and-training-systems.md) |
+| 2026-08-28 | cs231n | [自监督、对比学习与视觉语言表示](notes/cs231n/11-self-supervision-multimodal.md) | [练习卡](exercises/cs231n/11-self-supervision-multimodal.md) |
+| 2026-08-30 | cs231n | [VAE、GAN、自回归与扩散的目标区别](notes/cs231n/12-generative-models.md) | [练习卡](exercises/cs231n/12-generative-models.md) |
+| 2026-08-31 | cs231n | [三维表示、相机坐标与几何一致性](notes/cs231n/13-3d-geometry.md) | [练习卡](exercises/cs231n/13-3d-geometry.md) |
+| 2026-09-01 | cs231n | [视觉到机器人执行：综合复习与项目边界](notes/cs231n/14-robot-learning-review.md) | [练习卡](exercises/cs231n/14-robot-learning-review.md) |
+| 2026-09-03 | westlake-rl | [状态、动作、奖励与马尔可夫决策过程](notes/westlake-rl/01-mdp.md) | [练习卡](exercises/westlake-rl/01-mdp.md) |
+| 2026-09-05 | westlake-rl | [状态价值、动作价值与贝尔曼期望方程](notes/westlake-rl/02-bellman-expectation.md) | [练习卡](exercises/westlake-rl/02-bellman-expectation.md) |
+| 2026-09-07 | westlake-rl | [最优价值、贪心策略与压缩映射](notes/westlake-rl/03-bellman-optimality.md) | [练习卡](exercises/westlake-rl/03-bellman-optimality.md) |
+| 2026-09-09 | westlake-rl | [价值迭代、策略迭代与可验证基准](notes/westlake-rl/04-dynamic-programming.md) | [练习卡](exercises/westlake-rl/04-dynamic-programming.md) |
+| 2026-09-11 | westlake-rl | [蒙特卡洛评估、探索与回报方差](notes/westlake-rl/05-monte-carlo.md) | [练习卡](exercises/westlake-rl/05-monte-carlo.md) |
+| 2026-09-13 | westlake-rl | [随机近似、Robbins–Monro 与 SGD](notes/westlake-rl/06-stochastic-approximation.md) | [练习卡](exercises/westlake-rl/06-stochastic-approximation.md) |
+| 2026-09-15 | westlake-rl | [TD、自举与终止边界](notes/westlake-rl/07-temporal-difference.md) | [练习卡](exercises/westlake-rl/07-temporal-difference.md) |
+| 2026-09-17 | westlake-rl | [Sarsa、Expected Sarsa 与 Q-learning](notes/westlake-rl/08-sarsa-qlearning.md) | [练习卡](exercises/westlake-rl/08-sarsa-qlearning.md) |
+| 2026-09-19 | westlake-rl | [价值函数近似、投影与半梯度](notes/westlake-rl/09-value-approximation.md) | [练习卡](exercises/westlake-rl/09-value-approximation.md) |
+| 2026-09-21 | westlake-rl | [DQN：经验回放、目标网络与独立评测](notes/westlake-rl/10-dqn.md) | [练习卡](exercises/westlake-rl/10-dqn.md) |
+| 2026-09-23 | westlake-rl | [策略梯度与 REINFORCE 的推导](notes/westlake-rl/11-policy-gradient.md) | [练习卡](exercises/westlake-rl/11-policy-gradient.md) |
+| 2026-09-25 | westlake-rl | [Actor–Critic、优势与重要性采样](notes/westlake-rl/12-actor-critic.md) | [练习卡](exercises/westlake-rl/12-actor-critic.md) |
+| 2026-09-27 | westlake-rl | [扩展：GAE、PPO 与批次复用边界](notes/westlake-rl/13-ppo-extension.md) | [练习卡](exercises/westlake-rl/13-ppo-extension.md) |
+| 2026-09-28 | westlake-rl | [强化学习综合练习、复现与失败分析](notes/westlake-rl/14-rl-capstone.md) | [练习卡](exercises/westlake-rl/14-rl-capstone.md) |
