@@ -1,8 +1,6 @@
 # 偏好学习、奖励信号与工具使用边界
 
-[总目录](../../INDEX.md) · [上一主题](../cs224n/12-retrieval-and-factuality.md) · [下一主题](../cs224n/14-nlp-capstone.md)
-
-主题编排日期：2026-08-05；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs224n/12-retrieval-and-factuality.md) · [下一主题](../cs224n/14-nlp-capstone.md)
 
 ## 核心问题
 监督微调学习示例回答；偏好学习利用回答之间的比较；强化学习则通过采样与奖励优化策略。三者目标与数据需求不同。格式更好、语气更像人类，不代表代码更正确。
@@ -21,4 +19,4 @@
 ## 自测与参考答案
 问：奖励高就说明任务成功吗？答：仅在奖励准确表示目标时才成立。问：给参考模型加 KL 就一定安全可靠吗？答：不保证，它限制分布偏移，不直接保证所有行为约束。
 
-[对应练习卡](../../exercises/cs224n/13-alignment-and-preferences.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs224n/13-alignment-and-preferences.md)

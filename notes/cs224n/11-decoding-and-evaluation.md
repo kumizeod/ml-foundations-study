@@ -1,8 +1,6 @@
 # 生成策略与评测：模型得分不等于任务完成
 
-[总目录](../../INDEX.md) · [上一主题](../cs224n/10-finetuning.md) · [下一主题](../cs224n/12-retrieval-and-factuality.md)
-
-主题编排日期：2026-08-01；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs224n/10-finetuning.md) · [下一主题](../cs224n/12-retrieval-and-factuality.md)
 
 ## 核心问题
 贪心选当前最高概率 token；采样保留随机性；temperature 调整分布尖锐度；top-k 和 top-p 限制候选集合。它们影响质量、覆盖与重复性，评测必须记录具体配置。
@@ -19,4 +17,4 @@
 ## 自测与参考答案
 问：temperature=0 是否保证整个 Agent 完全可重复？答：不保证，还受服务端实现、工具环境、并发和外部状态影响。问：多次重试后的成功率能叫单次成功率吗？答：不能，应说明尝试预算和选择过程。
 
-[对应练习卡](../../exercises/cs224n/11-decoding-and-evaluation.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs224n/11-decoding-and-evaluation.md)

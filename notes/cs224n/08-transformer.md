@@ -1,8 +1,6 @@
 # Transformer：残差、归一化、多头与位置
 
-[总目录](../../INDEX.md) · [上一主题](../cs224n/07-attention.md) · [下一主题](../cs224n/09-tokenization-and-pretraining.md)
-
-主题编排日期：2026-07-28；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs224n/07-attention.md) · [下一主题](../cs224n/09-tokenization-and-pretraining.md)
 
 ## 核心问题
 Transformer 把 attention、逐位置前馈网络、残差和归一化组合起来。attention 负责不同位置的信息混合，前馈层对每个位置进行非线性特征变换。二者不是重复模块。
@@ -21,4 +19,4 @@ Transformer 把 attention、逐位置前馈网络、残差和归一化组合起�
 ## 自测与参考答案
 问：残差相加需要什么条件？答：两支输出形状一致。问：KV cache 消除了长上下文成本吗？答：没有，减少重复计算，但每步仍需读取已有上下文，缓存也占内存。
 
-[对应练习卡](../../exercises/cs224n/08-transformer.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs224n/08-transformer.md)

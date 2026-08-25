@@ -1,8 +1,6 @@
 # 价值迭代、策略迭代与可验证基准
 
-[总目录](../../INDEX.md) · [上一主题](../westlake-rl/03-bellman-optimality.md) · [下一主题](../westlake-rl/05-monte-carlo.md)
-
-主题编排日期：2026-09-09；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../westlake-rl/03-bellman-optimality.md) · [下一主题](../westlake-rl/05-monte-carlo.md)
 
 ## 核心问题
 动态规划假定可以计算环境转移与奖励的期望。价值迭代反复应用最优算子；策略迭代交替执行策略评估与策略改进。它们都不是直接从未知环境样本中学模型的算法。
@@ -22,4 +20,4 @@
 ## 自测与参考答案
 问：知道转移模型还必须采样很多回合吗？答：动态规划可以直接计算期望。问：价值已经很接近，策略一定不变吗？答：接近并列动作时，小误差仍可能改变贪心选择。
 
-[对应练习卡](../../exercises/westlake-rl/04-dynamic-programming.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/westlake-rl/04-dynamic-programming.md)

@@ -1,8 +1,6 @@
 # 蒙特卡洛评估、探索与回报方差
 
-[总目录](../../INDEX.md) · [上一主题](../westlake-rl/04-dynamic-programming.md) · [下一主题](../westlake-rl/06-stochastic-approximation.md)
-
-主题编排日期：2026-09-11；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../westlake-rl/04-dynamic-programming.md) · [下一主题](../westlake-rl/06-stochastic-approximation.md)
 
 ## 核心问题
 不知道环境模型时，可以采样完整轨迹，用实际回报估计价值。MC 不用下一状态价值来构造目标，因此不做同样的自举；但长轨迹回报会积累很多随机因素，方差可能较大。
@@ -21,4 +19,4 @@ first-visit MC 每回合只用该状态第一次出现的回报；every-visit �
 ## 自测与参考答案
 问：MC 完全没有误差吗？答：有有限样本、探索不足和可能的函数近似误差。问：只跑成功回合估计价值合适吗？答：会产生选择偏差，失败回合也属于策略表现。
 
-[对应练习卡](../../exercises/westlake-rl/05-monte-carlo.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/westlake-rl/05-monte-carlo.md)

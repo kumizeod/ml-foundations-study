@@ -1,8 +1,6 @@
 # 视频理解、时间采样与训练工程
 
-[总目录](../../INDEX.md) · [上一主题](../cs231n/09-detection-segmentation.md) · [下一主题](../cs231n/11-self-supervision-multimodal.md)
-
-主题编排日期：2026-08-27；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs231n/09-detection-segmentation.md) · [下一主题](../cs231n/11-self-supervision-multimodal.md)
 
 ## 核心问题
 视频包含时间关系。单帧分类可能看不出“拿起”和“放下”的差别，打乱帧顺序甚至会反转动作含义。2D 帧特征、3D 卷积、时序 attention 各有不同的时间建模方式。
@@ -22,4 +20,4 @@
 ## 自测与参考答案
 问：同一视频抽出的100帧等于100个独立实验吗？答：不是，具有强相关性。问：帧采样越密一定越好？答：不一定，成本、冗余和关键事件覆盖需要权衡。
 
-[对应练习卡](../../exercises/cs231n/10-video-and-training-systems.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs231n/10-video-and-training-systems.md)

@@ -1,8 +1,6 @@
 # 分词、预训练目标与数据泄漏
 
-[总目录](../../INDEX.md) · [上一主题](../cs224n/08-transformer.md) · [下一主题](../cs224n/10-finetuning.md)
-
-主题编排日期：2026-07-30；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs224n/08-transformer.md) · [下一主题](../cs224n/10-finetuning.md)
 
 ## 核心问题
 token 可能是字、子词、字节或特殊符号，不等于自然语言中的一个词。同一段代码在不同 tokenizer 下长度不同，所以 token 吞吐、困惑度、截断比例不能不加说明地横向比较。
@@ -21,4 +19,4 @@ token 可能是字、子词、字节或特殊符号，不等于自然语言中�
 ## 自测与参考答案
 问：测试数据没有同名文件就没泄漏吗？答：不是，内容或解决方案可以跨文件出现。问：更低 PPL 一定意味着更会修 bug 吗？答：不一定，优化指标与交互执行能力并不相同。
 
-[对应练习卡](../../exercises/cs224n/09-tokenization-and-pretraining.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs224n/09-tokenization-and-pretraining.md)

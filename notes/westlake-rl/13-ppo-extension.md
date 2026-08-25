@@ -1,8 +1,6 @@
 # 扩展：GAE、PPO 与批次复用边界
 
-[总目录](../../INDEX.md) · [上一主题](../westlake-rl/12-actor-critic.md) · [下一主题](../westlake-rl/14-rl-capstone.md)
-
-主题编排日期：2026-09-27；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../westlake-rl/12-actor-critic.md) · [下一主题](../westlake-rl/14-rl-capstone.md)
 
 ## 与课程主线的关系
 本节是沿策略梯度与 actor–critic 延伸到现代训练实践的补充，不冒充赵世钰课程原有独立章节，也没有宣称完成 PPO 真机训练。
@@ -22,4 +20,4 @@ old log probability 应来自真实采样时策略并保持固定。多 epoch �
 ## 自测与参考答案
 问：PPO 名字里有 proximal 就保证每次更新安全了吗？答：不保证实际约束或任务安全。问：value loss下降而成功率不变矛盾吗？答：不矛盾，critic拟合与策略行为是不同指标。
 
-[对应练习卡](../../exercises/westlake-rl/13-ppo-extension.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/westlake-rl/13-ppo-extension.md)

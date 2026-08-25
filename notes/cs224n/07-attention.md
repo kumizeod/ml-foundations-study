@@ -1,8 +1,6 @@
 # Attention：查询、匹配、加权读取
 
-[总目录](../../INDEX.md) · [上一主题](../cs224n/06-seq2seq.md) · [下一主题](../cs224n/08-transformer.md)
-
-主题编排日期：2026-07-27；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs224n/06-seq2seq.md) · [下一主题](../cs224n/08-transformer.md)
 
 ## 核心问题
 把 attention 看成可微检索：query 表示当前需要什么，key 表示候选内容的索引，value 表示真正读取的内容。key 与 value 的职责不同，输出是 value 的加权组合，不是 key 的平均。
@@ -22,4 +20,4 @@ Q∈R^(T_q×d_k)、K∈R^(T_k×d_k)、V∈R^(T_k×d_v)，输出 softmax(QKᵀ/�
 ## 自测与参考答案
 问：query 数量必须等于 key 数量吗？答：不必，cross-attention 常不同。问：key 与 value 维度必须相同吗？答：不必，Q/K 的匹配维度必须一致，V 可以有自己的特征维度。
 
-[对应练习卡](../../exercises/cs224n/07-attention.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs224n/07-attention.md)

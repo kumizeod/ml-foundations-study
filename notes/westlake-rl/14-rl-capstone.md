@@ -1,8 +1,6 @@
 # 强化学习综合练习、复现与失败分析
 
-[总目录](../../INDEX.md) · [上一主题](../westlake-rl/13-ppo-extension.md)
-
-主题编排日期：2026-09-28；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../westlake-rl/13-ppo-extension.md)
 
 ## 主线回顾
 MDP 定义问题，Bellman 方程给出递推关系；动态规划使用模型，MC 与 TD 使用样本；价值近似扩展状态规模，策略梯度与 actor–critic 直接优化策略。每次比较都要说明目标、数据来源与估计方式。
@@ -22,4 +20,4 @@ MDP 定义问题，Bellman 方程给出递推关系；动态规划使用模型�
 ## 自测与参考答案
 问：小环境通过等于 PPO 已掌握吗？答：不等于，还需理解采样、优势、更新与评测。问：学习笔记可以证明看完所有视频了吗？答：不能，个人观看与作业状态应由实际学习者另行填写。
 
-[对应练习卡](../../exercises/westlake-rl/14-rl-capstone.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/westlake-rl/14-rl-capstone.md)

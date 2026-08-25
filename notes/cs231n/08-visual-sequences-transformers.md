@@ -1,8 +1,6 @@
 # 视觉序列、图像描述与 Vision Transformer
 
-[总目录](../../INDEX.md) · [上一主题](../cs231n/07-transfer-learning.md) · [下一主题](../cs231n/09-detection-segmentation.md)
-
-主题编排日期：2026-08-23；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs231n/07-transfer-learning.md) · [下一主题](../cs231n/09-detection-segmentation.md)
 
 ## 核心问题
 图像可以被编码成局部特征序列，再由 RNN 或 Transformer 处理。图像描述把视觉信息与语言生成连接起来；ViT 则把图像切成 patch，并把 patch 表示作为序列输入。
@@ -22,4 +20,4 @@
 ## 自测与参考答案
 问：patch 减半后 token 数大致怎样变？答：面积方向约四倍，attention 分数元素约十六倍。问：分类 token 可以直接当像素分割输出吗？答：不能，需要空间输出结构与监督。
 
-[对应练习卡](../../exercises/cs231n/08-visual-sequences-transformers.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs231n/08-visual-sequences-transformers.md)

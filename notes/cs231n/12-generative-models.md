@@ -1,8 +1,6 @@
 # VAE、GAN、自回归与扩散的目标区别
 
-[总目录](../../INDEX.md) · [上一主题](../cs231n/11-self-supervision-multimodal.md) · [下一主题](../cs231n/13-3d-geometry.md)
-
-主题编排日期：2026-08-30；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs231n/11-self-supervision-multimodal.md) · [下一主题](../cs231n/13-3d-geometry.md)
 
 ## 核心问题
 生成模型学习数据分布或生成过程，但不同方法优化的对象不同。自回归按条件概率分解，VAE 引入潜变量及近似后验，GAN 通过生成器与判别器竞争，扩散学习逐步去噪或相关参数化。
@@ -19,4 +17,4 @@ VAE 的常见 ELBO 是 E_q[log p(x|z)]−KL(q(z|x)‖p(z))，既考虑重建也�
 ## 自测与参考答案
 问：VAE 的重建好就代表先验采样也好吗？答：不一定，还取决于潜空间分布匹配等因素。问：扩散模型训练步数和生成时去噪步数必须相同吗？答：不一定，采样器可以使用不同步数与离散化方案。
 
-[对应练习卡](../../exercises/cs231n/12-generative-models.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs231n/12-generative-models.md)

@@ -1,8 +1,6 @@
 # 策略梯度与 REINFORCE 的推导
 
-[总目录](../../INDEX.md) · [上一主题](../westlake-rl/10-dqn.md) · [下一主题](../westlake-rl/12-actor-critic.md)
-
-主题编排日期：2026-09-23；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../westlake-rl/10-dqn.md) · [下一主题](../westlake-rl/12-actor-critic.md)
 
 ## 核心问题
 与先学价值再选动作不同，策略方法直接参数化 π_θ(a|s)。连续动作和随机策略可以更自然地表达，但回报估计噪声会使梯度方差较大。
@@ -21,4 +19,4 @@ J(θ)=E_τ[R(τ)]。利用 ∇p=p∇log p，得到 ∇J=E[R(τ)∇log p_θ(τ)]�
 ## 自测与参考答案
 问：任意依赖动作的基线都无偏吗？答：不能直接这样减去，需额外修正。问：概率提高意味着每次执行该动作吗？答：不意味着，它仍可能是随机策略。
 
-[对应练习卡](../../exercises/westlake-rl/11-policy-gradient.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/westlake-rl/11-policy-gradient.md)

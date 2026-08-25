@@ -1,8 +1,6 @@
 # Skip-gram、负采样与训练目标的区别
 
-[总目录](../../INDEX.md) · [上一主题](../cs224n/02-word-vectors.md) · [下一主题](../cs224n/04-backprop-and-optimization.md)
-
-主题编排日期：2026-07-22；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs224n/02-word-vectors.md) · [下一主题](../cs224n/04-backprop-and-optimization.md)
 
 ## 核心问题
 Skip-gram 用中心词预测上下文词。中心向量与输出向量是两套参数；把它们误当成同一个矩阵，会改变目标与梯度。完整 softmax 为词表中每个候选计算分数，计算量随词表增长。
@@ -21,4 +19,4 @@ Skip-gram 用中心词预测上下文词。中心向量与输出向量是两套�
 ## 自测与参考答案
 问：负例越多一定越好吗？答：不是，收益、噪声与计算成本需要测量。问：正例内积变大是否意味着完整词表概率必然按同样幅度上升？答：不意味着，训练目标与归一化不同。
 
-[对应练习卡](../../exercises/cs224n/03-word2vec-and-objectives.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs224n/03-word2vec-and-objectives.md)

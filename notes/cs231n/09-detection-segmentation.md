@@ -1,8 +1,6 @@
 # 检测、分割、IoU 与 NMS
 
-[总目录](../../INDEX.md) · [上一主题](../cs231n/08-visual-sequences-transformers.md) · [下一主题](../cs231n/10-video-and-training-systems.md)
-
-主题编排日期：2026-08-25；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs231n/08-visual-sequences-transformers.md) · [下一主题](../cs231n/10-video-and-training-systems.md)
 
 ## 任务区别
 分类回答图中有什么；检测还预测位置；语义分割给每个像素类别；实例分割区分同类的不同对象。机械臂要抓哪个杯子时，只有全图分类往往不足以定位目标或区分实例。
@@ -21,4 +19,4 @@ NMS 先保留最高分框，再抑制与其重叠过大的候选。它是启发�
 ## 自测与参考答案
 问：置信度0.9意味着定位误差10%吗？答：不是，不同概念。问：检测框准确能保证抓取成功吗？答：不能，还需要深度、姿态、碰撞与控制验证。
 
-[对应练习卡](../../exercises/cs231n/09-detection-segmentation.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs231n/09-detection-segmentation.md)

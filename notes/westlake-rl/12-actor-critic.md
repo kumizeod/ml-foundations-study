@@ -1,8 +1,6 @@
 # Actor–Critic、优势与重要性采样
 
-[总目录](../../INDEX.md) · [上一主题](../westlake-rl/11-policy-gradient.md) · [下一主题](../westlake-rl/13-ppo-extension.md)
-
-主题编排日期：2026-09-25；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../westlake-rl/11-policy-gradient.md) · [下一主题](../westlake-rl/13-ppo-extension.md)
 
 ## 核心问题
 actor 学动作分布，critic 估计价值，为策略更新提供比完整回报更低方差的信号。critic 估计不准会引入偏差，因此不能把“加一个 critic”理解为无条件提升。
@@ -22,4 +20,4 @@ A_π(s,a)=Q_π(s,a)−V_π(s)。在某些 on-policy 条件下，一步 TD 误差
 ## 自测与参考答案
 问：critic 的 loss 小就证明策略好了吗？答：可能只是拟合当前数据，需独立执行评测。问：重要性采样能补回从没采到的动作吗？答：不能违反支持条件。
 
-[对应练习卡](../../exercises/westlake-rl/12-actor-critic.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/westlake-rl/12-actor-critic.md)

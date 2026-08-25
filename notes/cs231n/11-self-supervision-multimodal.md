@@ -1,8 +1,6 @@
 # 自监督、对比学习与视觉语言表示
 
-[总目录](../../INDEX.md) · [上一主题](../cs231n/10-video-and-training-systems.md) · [下一主题](../cs231n/12-generative-models.md)
-
-主题编排日期：2026-08-28；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs231n/10-video-and-training-systems.md) · [下一主题](../cs231n/12-generative-models.md)
 
 ## 核心问题
 自监督从数据构造训练信号，减少对人工类别标签的依赖。对比方法让相关视图靠近、不同样本拉开；掩码重建恢复被隐藏内容；教师学生方法以另一网络的表示提供目标。它们避免坍塌的方式不同。
@@ -22,4 +20,4 @@
 ## 自测与参考答案
 问：自监督等于完全没有监督信号吗？答：不是，信号由数据结构或变换构造。问：图文相似度高能证明图像里存在所有描述细节吗？答：不能，需要定位与细粒度验证。
 
-[对应练习卡](../../exercises/cs231n/11-self-supervision-multimodal.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs231n/11-self-supervision-multimodal.md)

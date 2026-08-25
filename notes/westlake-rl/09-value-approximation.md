@@ -1,8 +1,6 @@
 # 价值函数近似、投影与半梯度
 
-[总目录](../../INDEX.md) · [上一主题](../westlake-rl/08-sarsa-qlearning.md) · [下一主题](../westlake-rl/10-dqn.md)
-
-主题编排日期：2026-09-19；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../westlake-rl/08-sarsa-qlearning.md) · [下一主题](../westlake-rl/10-dqn.md)
 
 ## 核心问题
 状态多到无法建表时，用 V_θ(s) 或 Q_θ(s,a) 共享统计。线性近似 V_θ(s)=φ(s)ᵀθ 用特征压缩状态；神经网络提供更复杂的函数族，但近似误差和优化问题也随之出现。
@@ -22,4 +20,4 @@
 ## 自测与参考答案
 问：更大的网络一定消除价值误差吗？答：不一定，还受采样、目标和训练影响。问：停止目标梯度等于冻结整个网络吗？答：不是，只截断该目标分支的梯度。
 
-[对应练习卡](../../exercises/westlake-rl/09-value-approximation.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/westlake-rl/09-value-approximation.md)

@@ -1,8 +1,6 @@
 # 归一化与残差网络
 
-[总目录](../../INDEX.md) · [上一主题](../cs231n/05-convolution.md) · [下一主题](../cs231n/07-transfer-learning.md)
-
-主题编排日期：2026-08-19；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs231n/05-convolution.md) · [下一主题](../cs231n/07-transfer-learning.md)
 
 ## 核心问题
 深网络难训练不只是因为参数更多，梯度传播和激活分布同样重要。残差结构学习 F(x)+x，使一条较直接的信息路径保留下来；如果形状变化，需要投影或其他对齐方式，不能直接相加。
@@ -22,4 +20,4 @@ BatchNorm 使用指定轴上的批次统计，训练与推理通常采用不同�
 ## 自测与参考答案
 问：残差支路恒等就意味着输出恒等吗？答：还取决于另一支 F(x)。问：eval 模式会自动关闭梯度计算吗？答：不会，模型行为模式与 autograd 开关是两件事。
 
-[对应练习卡](../../exercises/cs231n/06-normalization-resnet.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs231n/06-normalization-resnet.md)

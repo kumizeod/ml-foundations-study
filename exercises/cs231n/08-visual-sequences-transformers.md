@@ -1,12 +1,10 @@
 # 练习卡：视觉序列、图像描述与 Vision Transformer
 
-[返回笔记](../../notes/cs231n/08-visual-sequences-transformers.md) · [个人状态](../../PROGRESS.md)
+[返回笔记](../../notes/cs231n/08-visual-sequences-transformers.md)
 
 ## 任务
 
 计算224分辨率下patch16与patch8的token数量和attention分数矩阵大小比。
-
-先独立计算或写出实验设计，再展开下方验收。只看答案不算完成本练习。
 
 <details>
 <summary>参考验收点</summary>
@@ -14,14 +12,3 @@
 不含分类token时196与784，分数元素比16；说明加分类token后不是精确16。
 
 </details>
-
-## 自己完成后填写
-
-- 实际完成日期：待填写
-- 独立推导或回答：待填写
-- 若运行代码，记录命令、参数、种子与输出：待填写
-- 与预期不同的地方：待填写
-- 错误定位与下一次改动：待填写
-- 一周后不看笔记能否复述：待确认
-
-本卡是练习任务，不预先替使用者填写完成状态或虚构实验结果。

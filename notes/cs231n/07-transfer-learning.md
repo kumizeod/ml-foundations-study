@@ -1,8 +1,6 @@
 # 迁移学习、冻结策略与分布变化
 
-[总目录](../../INDEX.md) · [上一主题](../cs231n/06-normalization-resnet.md) · [下一主题](../cs231n/08-visual-sequences-transformers.md)
-
-主题编排日期：2026-08-21；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs231n/06-normalization-resnet.md) · [下一主题](../cs231n/08-visual-sequences-transformers.md)
 
 ## 核心问题
 预训练表示可以减少小数据任务从零学习的负担，但源任务与目标任务并非总兼容。常见路线是先训练线性头，再解冻部分层，最后视数据量决定是否全量微调；这是一种实验顺序，不是任何任务都最优的定律。
@@ -22,4 +20,4 @@
 ## 自测与参考答案
 问：训练参数少就一定推理快吗？答：不是，推理仍运行骨干网络。问：新场景失败就是灾难性遗忘吗？答：不一定，可能从未学过或存在分布偏移，需分别评测新旧任务。
 
-[对应练习卡](../../exercises/cs231n/07-transfer-learning.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs231n/07-transfer-learning.md)

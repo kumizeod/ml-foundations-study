@@ -1,8 +1,6 @@
 # DQN：经验回放、目标网络与独立评测
 
-[总目录](../../INDEX.md) · [上一主题](../westlake-rl/09-value-approximation.md) · [下一主题](../westlake-rl/11-policy-gradient.md)
-
-主题编排日期：2026-09-21；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../westlake-rl/09-value-approximation.md) · [下一主题](../westlake-rl/11-policy-gradient.md)
 
 ## 核心问题
 DQN 用神经网络近似离散动作价值。经验回放减少连续样本相关性并复用数据；目标网络让自举目标在一段时间内更稳定。二者针对不同的不稳定来源，不能只说“用了深度网络”。
@@ -22,4 +20,4 @@ Double DQN 将动作选择与价值评估分开，旨在减轻某些过估计；
 ## 自测与参考答案
 问：目标网络一定永远不更新吗？答：需要按设计更新，否则目标会过时。问：回放缓冲区越大一定越好吗？答：不一定，还可能保存过旧分布，需权衡多样性与时效。
 
-[对应练习卡](../../exercises/westlake-rl/10-dqn.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/westlake-rl/10-dqn.md)

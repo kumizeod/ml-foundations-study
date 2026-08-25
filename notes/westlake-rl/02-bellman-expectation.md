@@ -1,8 +1,6 @@
 # 状态价值、动作价值与贝尔曼期望方程
 
-[总目录](../../INDEX.md) · [上一主题](../westlake-rl/01-mdp.md) · [下一主题](../westlake-rl/03-bellman-optimality.md)
-
-主题编排日期：2026-09-05；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../westlake-rl/01-mdp.md) · [下一主题](../westlake-rl/03-bellman-optimality.md)
 
 ## 核心问题
 给定策略 π，v_π(s) 是从状态 s 开始按该策略行动的期望回报；q_π(s,a) 则额外固定第一步动作。二者的区别决定了策略评估与控制代码的输入。
@@ -21,4 +19,4 @@
 ## 自测与参考答案
 问：v 与 q 如何连接？答：v_π(s)=Σ_aπ(a|s)q_π(s,a)。问：同一环境下所有策略价值相同吗？答：通常不同，因为动作分布改变未来访问与奖励。
 
-[对应练习卡](../../exercises/westlake-rl/02-bellman-expectation.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/westlake-rl/02-bellman-expectation.md)

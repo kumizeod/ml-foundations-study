@@ -1,8 +1,6 @@
 # Sarsa、Expected Sarsa 与 Q-learning
 
-[总目录](../../INDEX.md) · [上一主题](../westlake-rl/07-temporal-difference.md) · [下一主题](../westlake-rl/09-value-approximation.md)
-
-主题编排日期：2026-09-17；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../westlake-rl/07-temporal-difference.md) · [下一主题](../westlake-rl/09-value-approximation.md)
 
 ## 核心问题
 Sarsa 使用实际下一动作构造目标 r+γQ(s',a')，评估并改善当前行为策略；Q-learning 使用 max_aQ(s',a)，其目标通常对应贪心策略。行为策略用来收集数据，目标策略用来定义学习目标，两者可以不同。
@@ -22,4 +20,4 @@ Q←Q+α(target−Q)。Q-learning 在表格情形的收敛通常要求足够访�
 ## 自测与参考答案
 问：off-policy 等于完全不需要探索吗？答：不是，目标动作仍需数据支持。问：Q-learning 是所有连续动作任务的直接答案吗？答：不是，连续动作上的最大化通常需要额外方法。
 
-[对应练习卡](../../exercises/westlake-rl/08-sarsa-qlearning.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/westlake-rl/08-sarsa-qlearning.md)

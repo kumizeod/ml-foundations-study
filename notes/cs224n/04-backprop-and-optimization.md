@@ -1,8 +1,6 @@
 # 交叉熵梯度、数值稳定与优化检查
 
-[总目录](../../INDEX.md) · [上一主题](../cs224n/03-word2vec-and-objectives.md) · [下一主题](../cs224n/05-rnn-lstm.md)
-
-主题编排日期：2026-07-23；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs224n/03-word2vec-and-objectives.md) · [下一主题](../cs224n/05-rnn-lstm.md)
 
 ## 核心问题
 softmax 把 logits 变成概率，交叉熵惩罚正确类的低概率。两者联用时，对 logits 的梯度是 p−y。这条结论可以帮助发现类别维度、标签和 batch reduction 的错误，但不能代替逐层链式求导。
@@ -21,4 +19,4 @@ Adam 不保证任何学习率都稳定。梯度裁剪用于限制梯度范数，
 ## 自测与参考答案
 问：正确类概率很大时梯度一定为零吗？答：只会趋近零，有限 logits 下通常不精确为零。问：梯度检查通过是否证明数据管道没问题？答：不能，它只核验当前损失函数的局部求导。
 
-[对应练习卡](../../exercises/cs224n/04-backprop-and-optimization.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs224n/04-backprop-and-optimization.md)

@@ -1,8 +1,6 @@
 # TD、自举与终止边界
 
-[总目录](../../INDEX.md) · [上一主题](../westlake-rl/06-stochastic-approximation.md) · [下一主题](../westlake-rl/08-sarsa-qlearning.md)
-
-主题编排日期：2026-09-15；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../westlake-rl/06-stochastic-approximation.md) · [下一主题](../westlake-rl/08-sarsa-qlearning.md)
 
 ## 核心问题
 TD(0) 用 r+γV(s') 作为当前价值的目标。它只需要一步转移，不必等完整回合结束，但目标本身依赖当前价值估计。TD 误差 δ=r+γV(s')−V(s) 同时反映奖励和对未来的预测偏差。
@@ -22,4 +20,4 @@ MC 使用完整实际回报，TD 使用估计的未来，因此常呈现不同�
 ## 自测与参考答案
 问：TD 误差等于当前奖励吗？答：不是，还包括下一价值和当前价值。问：自举就是自我欺骗吗？答：不是，它是利用递推结构构造估计，需用合适假设和验证控制误差。
 
-[对应练习卡](../../exercises/westlake-rl/07-temporal-difference.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/westlake-rl/07-temporal-difference.md)

@@ -1,8 +1,6 @@
 # 最优价值、贪心策略与压缩映射
 
-[总目录](../../INDEX.md) · [上一主题](../westlake-rl/02-bellman-expectation.md) · [下一主题](../westlake-rl/04-dynamic-programming.md)
-
-主题编排日期：2026-09-07；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../westlake-rl/02-bellman-expectation.md) · [下一主题](../westlake-rl/04-dynamic-programming.md)
 
 ## 核心问题
 策略评估回答“这条策略有多好”，最优控制回答“能做到多好”。贝尔曼最优方程把策略平均换成最大化：v*(s)=max_a E[r+γv*(s')|s,a]。max 位于期望外侧，因为先选择动作，再面对环境随机性。
@@ -22,4 +20,4 @@
 ## 自测与参考答案
 问：γ=1 时能直接套用上述压缩证明吗？答：不能，需额外的任务条件与分析。问：最大化期望与对每个随机结果先最大化一样吗？答：通常不同，后者可能假定了决策时不可获得的信息。
 
-[对应练习卡](../../exercises/westlake-rl/03-bellman-optimality.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/westlake-rl/03-bellman-optimality.md)

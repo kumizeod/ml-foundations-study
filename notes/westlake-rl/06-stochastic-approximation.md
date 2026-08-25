@@ -1,8 +1,6 @@
 # 随机近似、Robbins–Monro 与 SGD
 
-[总目录](../../INDEX.md) · [上一主题](../westlake-rl/05-monte-carlo.md) · [下一主题](../westlake-rl/07-temporal-difference.md)
-
-主题编排日期：2026-09-13；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../westlake-rl/05-monte-carlo.md) · [下一主题](../westlake-rl/07-temporal-difference.md)
 
 ## 核心问题
 很多 RL 更新可以看作带噪声的求根或优化。真实期望往往不可直接算出，但可以得到样本估计，再以小步长逐渐逼近。理解更新目标、噪声和步长，比把每条算法当成独立公式更有帮助。
@@ -21,4 +19,4 @@ SGD 以单样本或小批样本梯度近似总体梯度。无偏梯度、独立�
 ## 自测与参考答案
 问：α=1/t 满足两个级数条件就能保证任何神经网络训练收敛吗？答：不能，其他假设也很关键。问：固定步长永远错误吗？答：不是，它可用于非平稳跟踪与有限预算训练。
 
-[对应练习卡](../../exercises/westlake-rl/06-stochastic-approximation.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/westlake-rl/06-stochastic-approximation.md)

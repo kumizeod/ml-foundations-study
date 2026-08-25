@@ -1,8 +1,6 @@
 # 检索增强、上下文选择与幻觉排查
 
-[总目录](../../INDEX.md) · [上一主题](../cs224n/11-decoding-and-evaluation.md) · [下一主题](../cs224n/13-alignment-and-preferences.md)
-
-主题编排日期：2026-08-03；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs224n/11-decoding-and-evaluation.md) · [下一主题](../cs224n/13-alignment-and-preferences.md)
 
 ## 核心问题
 RAG 在生成前或生成中检索外部材料。它可以提供新信息、降低只依靠参数记忆的压力，但检索结果错误、过时或不相关时也可能把回答带偏。检索与生成要分别评估。
@@ -22,4 +20,4 @@ RAG 在生成前或生成中检索外部材料。它可以提供新信息、降�
 ## 自测与参考答案
 问：上下文越长一定越好吗？答：不一定，可能增加噪声、费用与冲突。问：只看最终答案能定位失败在哪一层吗？答：通常不能，需要检索候选、被选片段和工具轨迹。
 
-[对应练习卡](../../exercises/cs224n/12-retrieval-and-factuality.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs224n/12-retrieval-and-factuality.md)

@@ -1,8 +1,6 @@
 # 全量微调、LoRA 与实验公平性
 
-[总目录](../../INDEX.md) · [上一主题](../cs224n/09-tokenization-and-pretraining.md) · [下一主题](../cs224n/11-decoding-and-evaluation.md)
-
-主题编排日期：2026-07-31；不是实际学习完成日期。
+[总目录](../README.md) · [上一主题](../cs224n/09-tokenization-and-pretraining.md) · [下一主题](../cs224n/11-decoding-and-evaluation.md)
 
 ## 核心问题
 微调在已有参数上适配新数据；冻结编码器只训练分类头、参数高效微调、全量微调有不同成本与适应能力。LoRA 把某些权重增量写成低秩乘积，而不是把整个模型变成低秩模型。
@@ -22,4 +20,4 @@
 ## 自测与参考答案
 问：上述低秩增量参数多少？答：16384，全矩阵为1048576，比例约1/64。问：LoRA 一定不遗忘旧能力吗？答：不保证，仍需旧任务与新任务评测。
 
-[对应练习卡](../../exercises/cs224n/10-finetuning.md) · [统一资料入口](../../SOURCES.md)
+[对应练习卡](../../exercises/cs224n/10-finetuning.md)
