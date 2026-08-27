@@ -20,4 +20,12 @@ Q∈R^(T_q×d_k)、K∈R^(T_k×d_k)、V∈R^(T_k×d_v)，输出 softmax(QKᵀ/�
 ## 自测与参考答案
 问：query 数量必须等于 key 数量吗？答：不必，cross-attention 常不同。问：key 与 value 维度必须相同吗？答：不必，Q/K 的匹配维度必须一致，V 可以有自己的特征维度。
 
+## 加深实现：从单query扩展到整段因果attention
+第t个位置只允许读取0到t的位置。可为每个query构造长度T的布尔mask，再调用同一读取算子。关键测试不是“mask矩阵看起来是三角形”，而是改变未来位置的key/value后，过去位置的输出不变。这样直接检验信息是否真的被阻断。
+
+若T=3，允许集合分别为{0}、{0,1}、{0,1,2}。每行权重只在自己的允许集合中归一化，不能先对整行softmax再把未来权重清零；后者权重和通常小于1，既改变输出尺度，也没有实现正确的条件分布。全mask行应显式报错。
+
+## 配套扩展
+`study_labs/sequence.py`提供因果attention与masked token loss。测试会把未来value改成大数，确认前缀输出保持不变；还会追加PAD位，确认有效loss不变。它是算子级教学实验，不声称复现完整多头Transformer。对于真实模型，还要检查位置编码、cache写入与batch广播。
+
 [对应练习卡](../../exercises/cs224n/07-attention.md)
