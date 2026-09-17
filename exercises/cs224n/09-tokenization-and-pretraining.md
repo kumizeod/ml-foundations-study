@@ -12,3 +12,14 @@
 指出预测单位与序列长度不同，必须固定tokenizer；列出截断、EOS和去重规则。
 
 </details>
+
+## 边界追问
+
+评测下载最新main有什么风险？
+
+<details>
+<summary>追问验收</summary>
+
+新版本可能包含答案或改变任务环境；固定仓库commit、tokenizer与截断规则。
+
+</details>
