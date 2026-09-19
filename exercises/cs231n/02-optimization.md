@@ -12,3 +12,14 @@
 x依次为1.6、1.28、1.024；梯度来自2x。batch求和可能放大更新，不能不调整约定直接比较。
 
 </details>
+
+## 边界追问
+
+同epoch比较batch10和batch100，优化预算相同吗？
+
+<details>
+<summary>追问验收</summary>
+
+样本量可相同，step数不同；分别报告有效batch、step和总时间。
+
+</details>
