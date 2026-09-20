@@ -12,3 +12,14 @@
 不含分类token时196与784，分数元素比16；说明加分类token后不是精确16。
 
 </details>
+
+## 边界追问
+
+加入分类token后，patch减半的attention元素比仍精确16吗？
+
+<details>
+<summary>追问验收</summary>
+
+不是，224例中为785²/197²约15.88；说明特殊token与padding。
+
+</details>
